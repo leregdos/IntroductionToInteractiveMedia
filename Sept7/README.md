@@ -7,3 +7,5 @@
 ### Interesting Observations I have Made
 
 ### Screenshot of the self-portrait
+
+[](screenshotPortrait.png)
