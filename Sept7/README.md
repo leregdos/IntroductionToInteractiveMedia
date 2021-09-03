@@ -8,4 +8,4 @@
 
 ### Screenshot of the self-portrait
 
-[](screenshotPortrait.png)
+[Picture](screenshotPortrait.png)
