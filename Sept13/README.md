@@ -30,3 +30,5 @@ Therefore, to create this code-art, I have to fulfill my role as a medium. I sho
 
 ### The screenshot of the program 
 
+![][screenshot.png]
+
