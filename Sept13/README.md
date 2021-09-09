@@ -27,6 +27,8 @@ Aside from the obvious difficulty I had initially regarding the definition of an
 
 ### Interesting Observations I have made
 
+I have observed that things may head into a completely different direction than I would ever have imagined. But I was open to such detours, and now I am pleased with the result.
+
 
 ### References
 
