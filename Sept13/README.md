@@ -15,9 +15,9 @@ In his definitions, an artist is a mediumistic being. Duchamp states that "we mu
 - An art could be extremely aesthetic, but it does not have to be. 
 - An art could have an intrinsic value, but it does not have to have it. Mainly the spectators be the judge of this. 
 - An art may or may not be comprehended. It is meant to be interpreted by the spectator. 
-- A piece of code can be an art the same way a simple urinal can be a work of art. All that matters is that the coder must behave as an artist, free from all consciousness in this plane.  
+- A piece of code can be an art the same way a simple urinal can be a work of art. All that matters is that the coder must behave as an artist, free from all consciousness in this plane during their creative act.  
 
-Therefore, to create this code-art, I have to fulfill my role as a medium. I should not have any rationalizations of this artwork, nor should it affect my final result. I know of the methods I should use to create this artwork (through Processing, with the use of `for` and `while` loops). So I should just strap in and start the process.  
+Therefore, to create this code-art, I have to fulfill my role as a medium. I should not have any rationalizations of this artwork, nor should it affect my final result. I know of the methods through which I will create this artwork (through Processing, with the use of `for` and `while` loops). So I should just strap in and start the process.  
 
 ### Difficulties I have faced
 
