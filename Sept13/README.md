@@ -1,9 +1,9 @@
-#Sept13 Homework Documentation
+# Sept13 Homework Documentation
 
-###The process
+### The process
 
-###Difficulties I have faced
+### Difficulties I have faced
 
-###Interesting Observations I have made
+### Interesting Observations I have made
 
-###The screenshot of the program
+### The screenshot of the program
