@@ -12,6 +12,11 @@ I have seen a piece of urinal being presented as an artwork by Marcel Duchamp. I
 
 In his definitions, an artist is a mediumistic being. Duchamp states that "we must deny him (the artist) the state of consciousness on the esthetic plane about what he is doing or why he is doing it". In other words, to create an artwork, the artist must enter in this state of trance during which they can't and shouldn't explain themselves. As the artist is purely the medium, the artist's vision should be divorced of the spectator's judgement of the work. Throughout art history, the virtues of an artwork has been completely separate from the rationalized explanations of the artist. 
 
+- An art could be extremely aesthetic, but it does not have to be. 
+- An art could have an intrinsic value, but it does not have to have it. Mainly the spectators be the judge of this. 
+- An art may or may not be comprehended. It is meant to be interpreted by the spectator. 
+- A piece of code can be an art the same way a simple urinal can be a work of art. All that matters is that the coder must behave as an artist, free from all consciousness in this plane.  
+
 Therefore, to create this code-art, I have to fulfill my role as a medium. I should not have any rationalizations of this artwork, nor should it affect my final result. I know of the methods I should use to create this artwork (through Processing, with the use of `for` and `while` loops). So I should just strap in and start the process.  
 
 ### Difficulties I have faced
