@@ -19,11 +19,13 @@ In his definitions, an artist is a mediumistic being. Duchamp states that "we mu
 
 Therefore, to create this code-art, I have to fulfill my role as a medium. I should not have any rationalizations of this artwork, nor should it affect my final result. I know of the methods through which I will create this artwork (through Processing, with the use of `for` and `while` loops). So I should just strap in and start the process.  
 
-During coding, I had no idea what I wanted to do. But as I knew I had to start somewhere, I started making some loops and making things look cool, but when I added a colorful background to the code, I kept going and added more features that made for some cool visual illusions. 
+During coding, I had no idea what I wanted to do. But as I knew I had to start somewhere, I started making some loops and making things look cool, but when I added a colorful background to the code, I kept going and added more features that made for some cool visual illusions. Because I have added a mousePressed check, everytime the program runs, it produces a different piece. 
 
 ### Difficulties I have faced
 
 Aside from the obvious difficulty I had initially regarding the definition of an art, I also had a difficulty as a programmer. As a programmer, I always seek to be efficient and concise. This trait common in most programmers has led me to struggle a lot when left completely to my own device. The instructions mentioned nothing else but a simple art. What kind of an art? What should it look like? I started asking these questions from myself, and I really wished there were more instructions so I can just implement them. After just taking that first step by starting, though, I had just kept going until my artwork was completed. I have understood that even if I'm not really sure what to do or if I'm completely lost, just keeping at it could lead to some interesting outcomes. 
+
+Therefore, it's best if I do more doing and less thinking. 
 
 ### Interesting Observations I have made
 
