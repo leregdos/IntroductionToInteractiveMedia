@@ -13,12 +13,12 @@ In the final version of the code, a random number of rectangles (CustomBox objec
 
 ### Difficulties I have faced
 
-Aside from deciding if I should rewrite my old code (easier) or start from scratch (more creative), I kept getting a `NullPointerException` on my Processing code, which frustrated me a lot. But I was able to debug my code after Googling around a lot. The page that helped me out a lot in debugging the code has been referenced below. I was not initializing my object array when declaring them. Small issue, but very hard to identify. Perhaps the smaller the issue is, the harder it is to spot it from the code. 
+Aside from deciding if I should rewrite my old code (easier) or start from scratch (more creative), I kept getting a `NullPointerException` on my Processing code, which frustrated me a lot. But I was able to debug my code after Googling around. The page that helped me out a lot in debugging the code has been referenced below. I was not initializing my object array when declaring them. Small issue, but very hard to identify. Perhaps the smaller the issue is, the harder it is to spot it from the code. 
 
 
 ### Interesting Observations I have made
 
-It felt bizarre to me that after doing all these coding to make sure the rectangles bounce around in the canvas, I decided to delete all the moving part. Perhaps sometimes, more could be less? 
+It felt bizarre to me that after doing all these coding to make sure the rectangles bounce around in the canvas, I decided to delete all the moving part. Perhaps sometimes, more could be less and vice versa? 
 
 
 ### References
