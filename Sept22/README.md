@@ -11,7 +11,7 @@ Before I started my work on this project, I was extremely tempted to re-use my l
 
 
 ### References
-- Homework Reading 1 [!](https://www.youtube.com/watch?v=o9sgjuh-CBM).
+- Homework Reading 1 ([link](https://www.youtube.com/watch?v=o9sgjuh-CBM)).
 
 ### The screenshot of the program 
 
