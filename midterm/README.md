@@ -6,4 +6,14 @@ The game premises were simple enough: each time, the player is presented with a 
 
 I had two different workarounds to make my game work. First was to reduce the number of choices to 2 because exponent of 2 is much better than exponent of 4. For illustration, in level 5 scenarios, the number of scenarios if I went with 2 would be only 32 whilst the number of scenarios if I went with 4 would be a staggering 1024! However, I did not want to change my original vision for the game, even though it seemed like the smart thing to do. I wanted to stick with it for once. 
 
-So I went with the other workaround: end some storylines short. So that the number of scenarios does not necessarily increase by power of 4 each level. 
+So I went with the other workaround: end some storylines short. So that the number of scenarios does not necessarily increase by power of 4 each level. To work with this new limitation, I added some "WOW" factors to the stories so that even the short storylines could be an experience. The "WOW" factor I added to several of my storylines was the thing that made my game shocking and entertaining. 
+
+I enriched all of my storylines with some dry humor. Additionally, my game narration involves some heavy fourth wall breaking, and those two things made my game funny. 
+
+Some storylines end with a word of wisdom that relies heavily on breaking the fourth wall, and those were the wholesome parts of my game. 
+
+To further supplement the experience of my game, I added images for visual aid in each scenario. Plus, I added the 8 bit rendition of my favorite song as a background music, which fit perfectly!
+
+Overall, the end product is not exactly what I expected it to be, but it fulfills each parameter of the vision I had initially. 
+
+
