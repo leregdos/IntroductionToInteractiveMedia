@@ -14,6 +14,6 @@ The key thing that I learned while working on this assignment is that the switch
 
 ### References
 - **Article that helped me with ideas for conductive materials** https://www.kobakant.at/DIY/?p=8906
-- **Video 1:** [The video of my circuit with a pushbutton switch](pushbutton.mp4) 
-- **Video 2:** [The video of my circuit with a wire switch](wire.mp4)
-- **Video 3:** [The video of my circuit with a unique workaround for switch](uniqueswitch.mp4)
+- **Video 1:** [The video of my circuit with a pushbutton switch](https://drive.google.com/file/d/1wa_Edoygb6-W9laGAw05UdAuSqwZolgB/view?usp=sharing) 
+- **Video 2:** [The video of my circuit with a wire switch](https://drive.google.com/file/d/13-ikIlZov_DQoEQQvW8vp2okaq5Q2c16/view?usp=sharing)
+- **Video 3:** [The video of my circuit with a unique workaround for switch](https://drive.google.com/file/d/1qEE6MaezEfxtLP_2VBOxn23-RN8uYgQA/view?usp=sharing)
