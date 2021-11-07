@@ -9,6 +9,6 @@
 ### Interesting things I have learned
 
 ### References
-  - The schematic
-  - The photograph
-  - The video
+  - [The schematic](schematic.HEIC)
+  - [The photograph](photograph.HEIC)
+  - [The video](https://drive.google.com/file/d/1WmlqJ-Ex7w8RWcAltxXLqwofbWYuSDoK/view?usp=sharing)
