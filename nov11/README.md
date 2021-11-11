@@ -10,7 +10,13 @@ As soon as I came up with the concept for my circuit, I started thinking of poss
 
 ### Problems I have encountered
 
+I had a problem with using a value from a digital input to control an analog output. Digital input is either HIGH or LOW, and analog output can take on a value between a range. The workaround for this problem was incrementing a value every time the button was pressed. The incremented value could be mapped as a value between 0 and 255. I implemented it and saw my desired outcome.
+
+Another problem was that clicking on the button was doing nothing once the max value for the LEDs were reached (255). I did not want the button to become unresponsive after some use. Then I remembered how we kept the objects from moving out of the screen in Processing. Once the maximum height or width had been reached, we started decrementing the coordinates. I wanted that sort of behavior from my button and LEDs: whenever the maximum value for an LED is reached, that LEDs brightness should start going down for each button pressed. When I implemented it using `boolean` variables, it worked.
+
 ### Interesting things I have learned
+
+The interesting thing I have learned while working on this assignment is that analog inputs and digital outputs can go together and vice versa. Once we get the input values into the code, they are all just numbers we can use to control an output, whether it be digital or analog.
 
 ### References
   - [The schematic](391A6767-AF5C-469F-9D24-76B9FC709A78.jpeg)
