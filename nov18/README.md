@@ -11,6 +11,7 @@
 ### References
 - [The documentation page I've found useful](https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody)
 - [The photo of the schematic]()
-- [The photo of my circuit]()
-- [The video of my circuit working]()
-- [The video of my performance]()
+- [The initial state of my circuit with switch buttons](https://drive.google.com/file/d/1-eBwEHx6X5wPqf4NLc9SFI9sjeKaLgi8/view?usp=sharing)
+- [The photo of my circuit](https://drive.google.com/file/d/1egX_dVlX13etwyJflH2zQvAMuz-m2RsH/view?usp=sharing)
+- [The video of my circuit working](https://drive.google.com/file/d/1Pdan1Tgu3DhNb_NEfaOGsXgssCFF8AsK/view?usp=sharing)
+- [The video of my performance](https://drive.google.com/file/d/1QD-WRm3jSudW60GGSvnqL9_hkZXt_cyN/view?usp=sharing)
