@@ -9,4 +9,8 @@
 ### Interesting things I've learned
 
 ### References
-- https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody
+- [The documentation page I've found useful] (https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody)
+- [The photo of the schematic] ()
+- [The photo of my circuit] ()
+- [The video of my circuit working] ()
+- [The video of my performance] ()
