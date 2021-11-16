@@ -1,12 +1,19 @@
 # Nov 18 Homework Documentation
 
 ### The concept
+Building a musical instrument was kind of unimaginable for someone who doesn't know much about musical instruments like me. But after giving it some thought, I started thinking of musical instruments as nothing but tools to produce sound waves in varying frequencies. This new definition might be a little too technical and not so accurate, but it helped me get started on the assignment. At first, I wanted my circuit to have some buttons such that when they're pressed, they would emit different sound waves. But after some time after I started to build it, I've seen that it makes the circuit difficult for user interaction due to the buttons being almost impossible to touch, let alone play music with. Therefore, I drew upon some ideas from my first Arduino assignment, and used some other form of conductors (wires taped to a tin foil) than a button. With the new switches, I was able to make a table keyboard that reads from an LDR input and changes the pitches depending on the environment brightness.
 
 ### The process
 
+
+
 ### Problems I have encountered and their workarounds
 
+
+
 ### Interesting things I've learned
+
+
 
 ### References
 - [The documentation page I've found useful](https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody)
