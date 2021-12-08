@@ -53,7 +53,7 @@ void loop() {
     Serial.println( data);
 
 
-    if (data == 1) {
+    if (data == 2) {
       analogWrite(pwmBPin, 150);
       digitalWrite(bin1Pin, HIGH);
       digitalWrite(bin2Pin, LOW);
@@ -67,7 +67,7 @@ void loop() {
       analogWrite(pwmBPin, 255);
       digitalWrite(bin1Pin, LOW);
       digitalWrite(bin2Pin, HIGH);
-    } else if (data == 2) {
+    } else if (data == 1) {
       analogWrite(pwmAPin, 255);
       digitalWrite(ain1Pin, HIGH);
       digitalWrite(ain2Pin, LOW);
