@@ -7,14 +7,7 @@ const int CSNPIN = 10;
 #include <RF24.h>
 RF24 radio(CEPIN, CSNPIN);                // CE, CSN
 const byte address[6] = "00001";
-
-// Pins for the pushbuttons
-const int leftPin = A1;
-const int rightPin = A2;
-const int fwdPin = A0;
-const int backPin = A3;
-const int stopPin = A5;
-
+int valueFromProcessing;
 
 void setup() {
   Serial.begin(115200);
@@ -23,18 +16,18 @@ void setup() {
   radio.openWritingPipe(address);  //destination addres
   radio.setPALevel(RF24_PA_MIN);   // min or max
   radio.stopListening();           //This sets the module as transmitter
+  Serial.println("0"); // starting the conversation
+
 }
 void loop() {
+  while (Serial.available()) {
+    valueFromProcessing = Serial.parseInt(); // reading the value sent from Processing
 
-  int left = digitalRead(leftPin) << 2;
-  int fwd = digitalRead(fwdPin) << 1;
-  int right = digitalRead(rightPin) << 0;
-  int back = digitalRead(backPin) << 3;
-  int stp = digitalRead(stopPin) << 4;
-  int data = left | fwd | right | back | stp;
-  if (data) {
-    Serial.print( "sending data = " );
-    Serial.println(data);
-    radio.write(&data, sizeof(data)) ;
+    // Only proceed if we have the end of line
+    if (Serial.read() == '\n') {
+      Serial.print( "sending data = " );
+      Serial.println(valueFromProcessing);
+      radio.write(&valueFromProcessing, sizeof(valueFromProcessing)) ;
+    }
   }
 }
