@@ -1,11 +1,10 @@
-
 const int CEPIN = 9;
 const int CSNPIN = 10;
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
 RF24 radio(CEPIN, CSNPIN);  // CE, CSN
-const byte address[6] = "00001";
+const byte address[6] = "00032"; // setting the address for radio interfacing
 
 
 const int ain1Pin = 3;
@@ -19,6 +18,8 @@ const int pwmBPin = 6;
 
 void setup() {
 
+  pinMode(CEPIN, OUTPUT);
+  pinMode(CSNPIN, OUTPUT);
   pinMode(ain1Pin, OUTPUT);
   pinMode(ain2Pin, OUTPUT);
   pinMode(bin1Pin, OUTPUT);
@@ -53,28 +54,28 @@ void loop() {
     Serial.println( data);
 
 
-    if (data == 2) {
+    if (data == 2) { // moving right
       analogWrite(pwmBPin, 150);
       digitalWrite(bin1Pin, HIGH);
       digitalWrite(bin2Pin, LOW);
       analogWrite(pwmAPin, 0);
       digitalWrite(ain1Pin, HIGH);
       digitalWrite(ain2Pin, LOW);
-    } else if (data == 8) {
+    } else if (data == 3) { // moving backward
       analogWrite(pwmAPin, 255);
       digitalWrite(ain1Pin, LOW);
       digitalWrite(ain2Pin, HIGH);
       analogWrite(pwmBPin, 255);
       digitalWrite(bin1Pin, LOW);
       digitalWrite(bin2Pin, HIGH);
-    } else if (data == 1) {
+    } else if (data == 0) { // moving forward
       analogWrite(pwmAPin, 255);
       digitalWrite(ain1Pin, HIGH);
       digitalWrite(ain2Pin, LOW);
       analogWrite(pwmBPin, 255);
       digitalWrite(bin1Pin, HIGH);
       digitalWrite(bin2Pin, LOW);
-    } else if (data == 4) {
+    } else if (data == 1) { // moving left
       analogWrite(pwmBPin, 0);
       digitalWrite(bin1Pin, HIGH);
       digitalWrite(bin2Pin, LOW);
@@ -82,7 +83,7 @@ void loop() {
       digitalWrite(ain1Pin, HIGH);
       digitalWrite(ain2Pin, LOW);
     }
-    if (data == 16) {
+    if (data == 4) { // stopping
       analogWrite(pwmAPin, 0);
       digitalWrite(ain1Pin, HIGH);
       digitalWrite(ain2Pin, LOW);
