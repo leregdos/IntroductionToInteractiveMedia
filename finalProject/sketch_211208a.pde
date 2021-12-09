@@ -68,6 +68,7 @@ void draw() {
   } else if (clickedBox == 4) {
     myPort.write(4 + "\n");
   }
+  println(clickedBox);
 }
 
 void mouseClicked() {
