@@ -6,11 +6,11 @@ const int CSNPIN = 10;
 #include <nRF24L01.h>
 #include <RF24.h>
 RF24 radio(CEPIN, CSNPIN);                // CE, CSN
-const byte address[6] = "00001";
+const byte address[6] = "00032";
 int valueFromProcessing;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   boolean retval = radio.begin();   //Starting the Wireless communication
   Serial.println(retval);
   radio.openWritingPipe(address);  //destination addres
@@ -20,9 +20,10 @@ void setup() {
 
 }
 void loop() {
-  while (Serial.available()) {
-    valueFromProcessing = Serial.parseInt(); // reading the value sent from Processing
 
+  while (Serial.available()) {
+
+    valueFromProcessing = Serial.parseInt(); // reading the value sent from Processing
     // Only proceed if we have the end of line
     if (Serial.read() == '\n') {
       Serial.print( "sending data = " );
