@@ -32,3 +32,5 @@ Calculating the dimensions of the robot and the maze is complicated and a bit ti
 
     - We are still figuring out how to use a radio transmitter, but we know the schematics of how to connect it. 
 
+For further documentation and journal of our process, please visit Afra's repository [here](https://github.com/afralmaz/afra-s-intro-to-im/tree/main/FINAL%20PROJECT).
+
